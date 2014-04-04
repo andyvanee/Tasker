@@ -1,0 +1,39 @@
+//= require bootstrap/dist/css/bootstrap
+
+body {
+  background-color: #f2f2f2;
+  background-image: url("/images/stacked_circles/stacked_circles.png");
+  border-top: 3px solid #FFF;
+}
+
+.main {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.task {
+  margin-bottom: 1em;
+}
+
+.timer-name {
+  &:focus {
+    outline: none;
+    // border: none;
+    box-shadow: none;
+  }
+}
+
+.controls {
+  text-align: right;
+}
+
+.dropdown-toggle, .task-status, .export-tasks, .new-task {
+  &:hover, &:focus {
+    background-color: white;
+    outline: none;
+  }
+}
+
+.dropdown-toggle {
+  border-left: 0;
+}

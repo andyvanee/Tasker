@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Timeout</title>
+  <%= stylesheet_link_tag "style" %>
+</head>
+<body class="<%= page_classes %>">
+  <div class="container main">
+    <%= yield %>
+  </div>
+  <%= javascript_include_tag  "app" %>
+</body>
+</html>
